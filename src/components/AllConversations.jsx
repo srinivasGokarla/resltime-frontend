@@ -31,7 +31,7 @@ const AllConversations = ({ userId }) => {
 
   return (
     <div>
-         <Navbar />
+    
       <h2>All Conversations</h2>
       <ul>
         {conversations.map((conversation) => (
